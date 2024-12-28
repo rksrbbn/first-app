@@ -77,7 +77,10 @@ class HomeScreen extends StatelessWidget {
               ),
               SizedBox(height: 40),
               AppDoubleText(bigText: 'Upcoming Flights', smallText: 'View all'),
+              SizedBox(height: 40),
               TicketView(),
+              SizedBox(height: 40),
+              AppDoubleText(bigText: 'Hotels', smallText: 'View all'),
               ],
             )
           )
